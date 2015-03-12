@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 16, 2014, 7:24:59 PM
+    Author     : skdonep
+*/
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+#header{
+    margin:0px;
+    padding-top:2px;
+    height:70px;
+    //border:5px solid #333;
+    background-color: #40454f;
+}
+
+#logo{
+    width:200px;
+    height:50px;
+    margin-top:5px;
+    padding:0px;
+    margin-left:0%;
+    background: url("#{resource['images:linkedULogo.png']}");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:#fff;
+    border-radius: 20px;
+    border:6px solid #333;
+}
+
+#logoutFrame{
+    float:right;
+    margin:0px;
+    margin-right: 10px;
+    padding:0px;
+    padding-top:5px;
+    padding-left:20px;
+    height:30px;
+    width:80px;
+    background-color: #40454f;    
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;    
+}
+
+#logoutFrame a{
+    float:right;
+    margin:0px;
+    margin-left:10px;
+    padding:0px;
+    height:30px;
+    width:80px;    
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    //border:2px solid black;
+}
+
+#sideBar{
+    float:left;
+    margin:0px;
+    padding:0px;
+    width:200px;
+    height:100%;
+    min-height: 600px;
+    font-family: sans-serif;
+    border-right:2px solid #40454f;
+    border-bottom:2px solid #40454f;
+}
+
+#content{
+    padding:30px;
+    margin-left:180px;
+    margin-top:5px;
+    width:75%;
+    min-height: 600px;
+    //border:5px solid #D41414;
+}
+
+#footer{
+    float:left;
+    //border:5px solid #008000;
+}
+
+.inputTextBox{
+    border-radius: 10px;
+    height: 30px;
+    padding:4px;
+    border:none;
+}
+
+input[type="text"]:focus,input[type="password"]:focus{
+    outline: none;
+    box-shadow: 0px 0px 10px #fff;
+    border-color: #40454f;
+}
+
+input[type="text"]:hover,input[type="password"]:hover{
+    outline: none;
+    box-shadow: 0px 0px 10px #40454f;
+    border-color: #40454f;
+}
+
+.errorMessage{
+    color:#da1c5b;
+}
+
+#sideBar ul{
+    width:180px;
+}
+
+#sideBar ul li a{
+    float: left;
+    padding-top:15px;
+    padding-left:20px;
+    width:180px;
+    height:30px;
+    text-decoration: none;
+    border-bottom:3px solid #40454f;
+    font-family: sans-serif;
+    color:#1a33b5;
+}
+
+#sideBar ul li a:hover {
+    background-color: #40454f;
+    color:white;
+    border-bottom:6px solid black;
+}
+
+#sideBar ul li{
+    display:inline;
+    
+}
+
+#unreadCount{
+    margin:4px;
+    padding:2px;
+    padding-left:4px;
+    padding-right: 4px;
+    background-color:green;
+    border-radius:15px;
+    color:white;
+    font-size: 16px;
+}
+
+#sideBarSplitter{
+    height:80px;
+    width:140px;
+    background-color: #1a33b5;
+    color:white;
+    border:3px solid yellow;
+}
+
+input[type="text"]{
+    font-family: sans-serif;
+    font-size:15px;
+}
+
+input[type="password"]{
+    font-size:15px;
+}
+
+button[type="submit"]{
+    font-family: sans-serif;
+    font-size:15px;
+}
+
+institutionProfile:j_idt30{
+    min-height:429px;
+}
+
+.ui-tabs-nav{
+   height:43px; 
+}
+
+#noLogout{
+    width:100%;
+    background-color: white;
+}

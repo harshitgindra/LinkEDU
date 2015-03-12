@@ -1,0 +1,135 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 6, 2014, 6:55:19 PM
+    Author     : skdonep
+*/
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    background-repeat:no-repeat;
+    background-size: 100%;
+    color:black;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#indexHeader{
+    margin-bottom: 20px;
+    padding-top:5px;
+    height:85px; 
+    background-color:#40454f;
+}
+
+#logo{
+    float:left;
+    width:200px;
+    height:50px;
+    margin-top:8px;
+    padding:0px;
+    padding-top:0px;
+    margin-left:2%;
+    background: url("#{resource['images:linkedULogo.png']}");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:#fff;
+    border-radius: 20px;
+    border:6px solid #333;
+}
+
+#loginFrame{
+    margin-left:63%;    
+    margin-bottom: 20px; 
+    width:45%;
+    height:30px;      
+    font-size: 15px;
+    color:white;
+}
+
+#WelcomeBanner{
+    float:left;
+    margin-top:75px;
+    margin-left:5%;
+    padding:20px;
+    width:40%;
+    height:450px;    
+    background-color:white;
+    background: url("#{resource['images:WelcomeBannerBackground.gif']}");    
+    background-size: 100%;
+    opacity:0.8;
+    font-family: sans-serif;
+    font-size: 18px;
+    color:#1a33b5;
+    
+}
+
+#signupFrame{
+    float:right;
+    margin-top:25px;
+    padding:20px;
+    padding-top: 10px;
+    height:350px;    
+    background-color:#40454f;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color:white;
+}
+
+#signUpErrors{
+    float:right;
+    margin-top:25px;
+    left: -10px;
+    padding:20px;
+    padding-top: 10px;
+    height:350px;    
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color:red;
+}
+
+input[type="text"],input[type="password"]{
+    height:15px;
+    width:150px;
+}
+
+button[type="submit"]{
+    height:27px;
+    font-family:sans-serif;
+    font-size:15px;
+}
+
+.smallLbls{
+    font-size:13px;
+}
+
+.signupErrors{
+    /*margin:-20px;
+    padding-left:20px;
+    background-image:url("#{resource['images:Error.PNG']}");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;*/
+    color: red;
+}
+
+a{
+    color:white;
+}
+
+#sponsoredimage{
+    
+   border: 2px solid;
+   border-radius: 25px;
+
+}
